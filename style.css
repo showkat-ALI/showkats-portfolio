@@ -24,7 +24,7 @@ section{
 .link{
     background-color: cyan;
     text-decoration: none;
-    padding:10px 40px;
+    padding: 10px 40px;
     border-radius:5%;
     background-image: linear-gradient(tomato,orange);
     color:mintcream;
@@ -33,4 +33,10 @@ section{
 .first-half{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+margin-bottom: 170px;
+}
+.second-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
