@@ -1,0 +1,36 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0%;
+
+}
+h1{
+color: lightsalmon;
+font-size: 40px;
+}
+section{
+    display: flex;
+}
+.portion{
+    width: 50%;
+    padding: 10px;
+} 
+.portion img{
+    width: 70%;
+
+}
+.under{
+    color: darkslategrey;
+}
+.link{
+    background-color: cyan;
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius:5%;
+    background-image: linear-gradient(tomato,orange);
+    color:mintcream;
+    font-weight: 700;
+}
+.first-half{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+}
