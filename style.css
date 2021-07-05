@@ -7,8 +7,11 @@ h1{
 color: lightsalmon;
 font-size: 40px;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 170px;
+
+
 }
 .portion{
     width: 50%;
@@ -33,10 +36,41 @@ section{
 .first-half{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
-margin-bottom: 170px;
 }
 .second-part{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.dreampic{
+    margin-left: 50px;
+}
+.make-up{
+    box-shadow: 10px 10px 10px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.experience-aria{
+
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+
+}
+#full-stack-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(cyan,pink);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
